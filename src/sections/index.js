@@ -14,5 +14,6 @@ export {
     Services,
     SpecialOffer,
     CustomerReviews,
-    Subscribe
+    Subscribe,
+    Footer
 }
