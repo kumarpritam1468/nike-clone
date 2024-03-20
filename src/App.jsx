@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <main className='relative'>
+    <main className='relative overflow-x-hidden'>
       <Navbar/>
-      <section className=' xl:padding-l wide:padding-r padding-b'>
+      <section className=' xl:padding-l xl:padding-r'>
         <Hero/>
         <section className='padding'>
           <PopularProduct/>
@@ -26,10 +26,10 @@ const App = () => {
         <section className='padding sm:py-32 py-16 w-full'>
           <Subscribe/>
         </section>
+      </section>
         <section className='bg-black padding-x padding-t pb-8'>
           <Footer/>
         </section>
-      </section>
     </main>
   )
 }
